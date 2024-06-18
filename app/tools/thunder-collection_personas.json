@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "personas",
+    "collectionId": "8770bb42-dbae-4803-a02b-aca1cb58220e",
+    "dateExported": "2024-06-18T16:04:40.717Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a880b7ff-2dc7-434a-8ace-7d090efae635",
+            "colId": "8770bb42-dbae-4803-a02b-aca1cb58220e",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "http://localhost:3000/user/persona/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-18T15:21:52.311Z",
+            "modified": "2024-06-18T15:23:32.936Z",
+            "headers": []
+        },
+        {
+            "_id": "f8b955e1-444b-410f-ae01-7322f86b3f3b",
+            "colId": "8770bb42-dbae-4803-a02b-aca1cb58220e",
+            "containerId": "",
+            "name": "listar",
+            "url": "http://localhost:3000/user/persona/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-18T15:22:01.623Z",
+            "modified": "2024-06-18T15:23:34.713Z",
+            "headers": []
+        },
+        {
+            "_id": "b8493c26-cce4-4849-8245-958792acfe8f",
+            "colId": "8770bb42-dbae-4803-a02b-aca1cb58220e",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/user/persona/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-18T15:22:07.334Z",
+            "modified": "2024-06-18T15:56:18.903Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"cristian\",\n  \"apellido\": \"panigua\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "263cd7f1-5f62-41cc-9724-ca50d5f6c55a",
+            "colId": "8770bb42-dbae-4803-a02b-aca1cb58220e",
+            "containerId": "",
+            "name": "modificar",
+            "url": "http://localhost:3000/user/persona/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-06-18T15:22:14.951Z",
+            "modified": "2024-06-18T16:00:22.390Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"1\",\n  \"nombre\": \"alberto\",\n  \"apellido\": \"monsalve\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "28347fc0-d7b6-4ee2-9da2-83825b0fa18b",
+            "colId": "8770bb42-dbae-4803-a02b-aca1cb58220e",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/user/persona/",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-18T15:22:22.487Z",
+            "modified": "2024-06-18T16:02:41.791Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"7\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "YyuMCU_8dUWq6hwCsV33wDVg51rYMzFS3hd-vnF2mR3UzIBf66yZcizuksHEiTTYWuCAqw6TqEQcFaGCULj1CQ"
+}
